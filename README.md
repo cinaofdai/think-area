@@ -34,3 +34,13 @@ composer require dh2y/think-area
 
 
 ## 使用
+    1、将src目录下面的area.sql数据导出到数据库中
+
+## 请求方式
+    post、get 
+
+    2、获取省份    http://www.demo.me/area
+    
+    2、获取市    http://www.demo.me/area?pid=省份id
+    
+    3、获取区域    http://www.demo.me/area?pid=区域id
